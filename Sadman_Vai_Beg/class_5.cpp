@@ -74,5 +74,10 @@ void Priority_queue_descending (){
 int main()
 {
     INPUT();
+    /*
+        Problem : Given  N int numbe, Find how many triplets are there such that A+B+C=0
+    */
+    // value sort in ascending order
+    // value sort in descending order
     return 0;
 }
