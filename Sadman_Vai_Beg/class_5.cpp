@@ -1,6 +1,4 @@
-/*
-Problem : Given  N int numbe, Find how many triplets are there such that A+B+C=0
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll              long long
@@ -21,10 +19,10 @@ void INPUT(){
     freopen("inputf.in", "r", stdin); freopen("outputf.in", "w", stdout); 
     #endif
 }
-int main()
-{
-    INPUT();
-
+void Problem_01(){
+    /*
+        Problem : Given  N int numbe, Find how many triplets are there such that A+B+C=0
+    */
     ll n, cnt = 0;
     cin >> n;
     map<ll, ll>mp;
@@ -38,6 +36,42 @@ int main()
         if (mp[-tmp] == 1) cnt++;
     }
     cout << cnt << endl;
+}
+void Priority_queue_ascending(){
+    /*
+        value sort in ascending order
+    */ 
+    priority_queue<ll>pq;
+    pq.push(5);
+    pq.push(-5);
+    pq.push(50);
+    pq.push(10);
+    pq.push(2);
+    while (!pq.empty())
+    {
+        cout << pq.top() << " ";
+        pq.pop();
+    }
+}
+void Priority_queue_descending (){
+    /*
+        value sort in descending order
+    */ 
+    priority_queue<ll, vector<ll>, greater<ll>>pq;
+    pq.push(5);
+    pq.push(-5);
+    pq.push(50);
+    pq.push(10);
+    pq.push(2);
+    while (!pq.empty())
+    {
+        cout << pq.top() << " ";
+        pq.pop();
+    }
+}
+int main()
+{
+    INPUT();
 
     return 0;
 }
