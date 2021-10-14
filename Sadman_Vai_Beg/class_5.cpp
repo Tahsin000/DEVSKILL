@@ -31,9 +31,11 @@ void Problem_01(){
         mp[x] = 1;
     }
 
-    for(ll i=0; i<n-1; i++){
-        ll tmp = v[i] + v[i+1];
-        if (mp[-tmp] == 1) cnt++;
+    for(ll i=0; i<n; i++){
+        for(ll j=i+1; j<n; j++){
+             ll tmp = v[i] + v[j];
+            if (mp[-tmp] == 1) cnt++;
+        } 
     }
     cout << cnt << endl;
 }
@@ -72,6 +74,5 @@ void Priority_queue_descending (){
 int main()
 {
     INPUT();
-
     return 0;
 }
