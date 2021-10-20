@@ -115,10 +115,22 @@ void UVA_483(){
     }    
 }
 
+void Decimal_To_Binary_Using_Bitwise_operator(ll n){
+    vector<ll>v;
+    while (n)
+    {
+        v.pb(n&1);
+        n = (n >> 1);
+    }
+    for(ll i = sz(v)-1; i>=0; i--) cout << v[i] << " ";
+}
+
 int main()
 {
     INPUT();
-    UVA_483();
+    
+    // Decimal_To_Binary_Using_Bitwise_operator(12);
+    // UVA_483();
     // String_Search_Problem();
     // Substring();
     // String_To_Int();
