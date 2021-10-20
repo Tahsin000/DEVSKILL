@@ -114,7 +114,6 @@ void UVA_483(){
         cout << "\n";
     }    
 }
-
 void Decimal_To_Binary_Using_Bitwise_operator(ll n){
     vector<ll>v;
     while (n)
@@ -124,11 +123,37 @@ void Decimal_To_Binary_Using_Bitwise_operator(ll n){
     }
     for(ll i = sz(v)-1; i>=0; i--) cout << v[i] << " ";
 }
+void GetBit(){
+    ll n, pos; cin >> n >> pos;
+    bool ans = (n & (1 << pos));
+    (ans) ? cout << "1\n" : cout << "0\n";
+    cout << (1 << 2) << endl;
+}
+void SetBit(){
+    ll n, pos; cin >> n >> pos;
+    ll ans = (n | (1 << pos));
+    cout << ans << endl;
+}  
+void ClearBit(){
+    ll n, pos; cin >> n >> pos;
+    ll ans = ~(1 << pos);
+    cout << (n & ans) << endl;
+}
+void UpdateBit(){
+    ll n, pos, u; cin >> n >> pos >> u;
+    ll mask = ~(1 << pos);
+    n = n & mask;
+    ll ans = n | (u << pos);
+    cout << ans << endl;
+}
 
 int main()
 {
     INPUT();
-    
+    UpdateBit();
+    // ClearBit();
+    // SetBit();
+    // GetBit();
     // Decimal_To_Binary_Using_Bitwise_operator(12);
     // UVA_483();
     // String_Search_Problem();
