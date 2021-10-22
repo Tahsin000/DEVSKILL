@@ -69,9 +69,20 @@ void UVA_12455(){
     }
     
 }
+void Odd_and_Even_Check(){
+    ll n; cin >> n;
+    // PrintBinary number n; 
+    for(ll i=15; i>=0; i--){
+        cout << (bool)(n & (1 << i));
+    }
+    cout << "\n";
+    // Odd_and_Even_Check
+    ((bool)(n & 1)) ? cout << "ODD\n" : cout << "EVEN\n";
+}
 int main()
 {
     INPUT();
+    // Odd_and_Even_Check
     // UVA_12455(); //Bars - Online Judge
     // Problem_02(); // GetBit
     // Problem_01();
