@@ -151,6 +151,7 @@ int main()
 {
     INPUT();
     UpdateBit();
+    
     // ClearBit();
     // SetBit();
     // GetBit();
