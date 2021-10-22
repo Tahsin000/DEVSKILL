@@ -161,8 +161,8 @@ void BitCount(){
 int main()
 {
     INPUT();
-    UpdateBit();
-    // BitCount();
+    BitCount();
+    // UpdateBit();
     // ClearBit();
     // SetBit();
     // GetBit();
