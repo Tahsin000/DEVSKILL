@@ -146,12 +146,23 @@ void UpdateBit(){
     ll ans = n | (u << pos);
     cout << ans << endl;
 }
+void BitCount(){
+    // custom function with counting BITs; 
+    ll n , cnt=0; cin >>n;
+    for(ll i=15; i>=0; i--){
+        cnt += (bool)(n & (1 << i));
+    }
+    cout << cnt << endl;
 
+    // Builtin function counting BITs;
+    ll ans = __builtin_popcount(n);
+    cout << ans << endl;
+}
 int main()
 {
     INPUT();
     UpdateBit();
-    
+    // BitCount();
     // ClearBit();
     // SetBit();
     // GetBit();
