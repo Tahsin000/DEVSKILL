@@ -125,9 +125,9 @@ void Decimal_To_Binary_Using_Bitwise_operator(ll n){
 }
 void GetBit(){
     ll n, pos; cin >> n >> pos;
-    bool ans = (n & (1 << pos));
+    bool ans = (n & (1 << (pos-1)));
     (ans) ? cout << "1\n" : cout << "0\n";
-    cout << (1 << 2) << endl;
+    // cout << (1 << 2) << endl;
 }
 void SetBit(){
     ll n, pos; cin >> n >> pos;
