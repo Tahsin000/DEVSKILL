@@ -24,7 +24,7 @@ void Problem_01(){
         left most bit = sigm bit 
         sign bits 0 = positive number 
         sign bits 1 = negative number 
-        init range 2^31 ta different number represent korte pare
+        init range 2^31 ta different number represent korte par
         0 ~ (2^31 - 1)
     */
    /* GetBit Problem */
