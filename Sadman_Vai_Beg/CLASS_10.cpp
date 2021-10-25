@@ -63,10 +63,33 @@ void Div_Count(){
     } ll p = 0;
     for(auto x : cnt) cout << p++ << " " << x << "\n";
 }
+void Div_Sum(){
+    ll n; cin >> n;
+    vector<ll>cnt(n);
+    for(ll i=1; i<=n; i++){
+        for(ll j=i; j<=n; j+=i){
+            cnt[j]+=i;
+        }
+    } ll p = 0;
+    for(auto x : cnt) cout << p++ << " " << x << "\n";
+}
+void Div_Calculation(){
+    ll n; cin >> n;
+    vector<ll>v[10000];
+    for(ll i=1; i<=n; i++){
+        for(ll j=i; j<=n; j+=i){
+            v[j].pb(i);
+        }
+    }
+    ll q; cin >> q;
+    for(auto x : v[q]) cout << x << " ";
+}
 int main()
 {
     INPUT();
-    Div_Count();
+    Div_Calculation();
+    // Div_Sum();
+    // Div_Count();
     // Sivev();
     // Prime();
     /*
