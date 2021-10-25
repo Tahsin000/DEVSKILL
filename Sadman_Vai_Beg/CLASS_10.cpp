@@ -53,12 +53,21 @@ void Sivev() {
     }
     for (ll i = 1; i <= n; i++) cout << i << " " << Not_prime[i] << " \n";
 }
-
-
+void Div_Count(){
+    ll n; cin >> n;
+    vector<ll>cnt(n+1);
+    for(ll i=1; i<=n; i++){
+        for(ll j=i; j<=n; j+=i){
+            cnt[j]++;
+        }
+    } ll p = 0;
+    for(auto x : cnt) cout << p++ << " " << x << "\n";
+}
 int main()
 {
     INPUT();
-    Sivev();
+    Div_Count();
+    // Sivev();
     // Prime();
     /*
     * Topic (number theary)
