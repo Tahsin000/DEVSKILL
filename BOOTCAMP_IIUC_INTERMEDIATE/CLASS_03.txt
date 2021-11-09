@@ -1,0 +1,22 @@
+Took the Session: Md. Al Asad Nur Riyad https://bd.linkedin.com/in/nur-riyad
+
+4:12 (a - b)%n = ((a % n - b % n) + n) % n
+12:08 conversion multiplication
+26:15 modulo inverse
+32:24 Prime er jony PI er man (n - 1 ) hoy keno ??
+36:08 congruence
+53:03 inverse formula 
+1:02:23 final formula  
+1:07:07 Big Mod
+1:20:51 what is modulus
+1:37:35 Big Mod summary 
+
+*** resource  ***
+1. https://www.youtube.com/watch?v=OoQ16YCYksw
+2. https://www.youtube.com/watch?v=0uRL3ymzWig
+3. https://www.youtube.com/watch?v=y7sk9XIGdws
+4. https://www.youtube.com/watch?v=N0aLkfJaX1E
+5. https://www.geeksforgeeks.org/fermats-little-theorem/
+6. https://www.geeksforgeeks.org/compute-ncr-p-set-3-using-fermat-little-theorem/
+7. https://www.geeksforgeeks.org/primality-test-set-2-fermet-method/
+8. https://forthright48.com/p-cpps-101/

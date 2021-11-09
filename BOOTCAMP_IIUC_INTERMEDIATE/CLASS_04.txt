@@ -1,0 +1,52 @@
+Took the Session: Naimul Haque 
+https://www.linkedin.com/in/naimulha/
+
+
+*** TIME ***
+
+1:30 What is Recursion 
+3:20 Factorial function
+6:52 1 - n print 
+15:50 array input 
+19:49 sum of array
+27:10 reverse array element print 
+37:41 alternating sum
+47:08 string palindrome
+55:53 string reverse 
+57:07 string reverse return
+1:03:29 pow function 
+1:05:11  faster pow function
+1:09:00 digit sum  
+1:16:31 min element of array 
+1:19:10 max element of array 
+1:20:14 fibonacci 
+1:20:43 faster fibonacci 
+1:22:49 subSetPrint  
+1:38:25 bits generator 
+1:45:16 combination generator
+1:52:57 lucky number generator
+1:53:55 tiling problem 
+2:01:02 coin change problem
+2:01:02
+2:01:02
+2:01:02
+
+
+
+***** Problem Discussed *****
+
+Factorial function
+Print 1 to N / N to 1
+Array input / output / sum / alternating sum / printing k items in reverse order
+Check if the string is a palindrome
+Reverse a string
+Calculate n to the power k / Fast Exponentiation
+Digit Sum / Minimum Digit sum from L to R
+N'th Fibonacci  number
+Generating subsets
+Generate binary strings of K bits
+Generating combinations
+Lucky numbers (Only 4 and 7)
+Tiling problem
+Coin Change
+0/1 Knapsack
