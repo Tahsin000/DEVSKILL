@@ -24,8 +24,21 @@ void BINARY_EXPONENTIATION(){
     cin >> a >> b;
     cout << binExpRecur(a, b) << endl;
 }
+void binExpIter(){
+    ll b, p; cin >> b >> p;
+    ll ans = 1;
+    while(p){
+        if (p & 1){
+            ans = ans * b;
+        }
+        b =b*b;
+        p >>= 1;
+    }
+    cout << ans << endl;
+}
 int main()
 {
+    // binExpIter();
     BINARY_EXPONENTIATION();
     return 0;
 }
